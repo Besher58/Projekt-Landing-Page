@@ -1,4 +1,68 @@
 body{
     margin: 0;
-    background: ;
+    background:url(../img/bild1.jpg);
+    background-position:top;
+    background-size:100%;
+    background-repeat: no-repeat;
+    font-family: 'Sanito';
+}
+@font-face{
+    font-family: Sanito;
+    src: url(../SANTIO/OTP/Santio\ Black.otf);
+}
+li{
+    display: inline;
+    padding-right: 3%;
+}
+nav{
+    margin: 2% 0 0 14%;
+    padding-top: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    margin-top: -2.7%;
+}
+.po{
+    padding-right: 60%;
+}
+.fi{
+    color: #FC2C00;
+    display: inline-block;
+    position: absolute;
+    left: 25%;
+    top: 2.5em;
+}
+.sec{
+    color: rgb(144,192,40);
+    display: inline-block;
+    position: absolute;
+    left: 28%;
+    top: 3.5em;
+}
+.thi{
+    font-size: 3em;
+    color: rgb(0,140,210);
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    left: 52%;
+    top: 8.5em;
+}
+.ho:hover{
+    color: rgb(255, 205, 82);
+}
+main{
+    position: relative;
+}
+div{
+    background: rgba(0, 0, 0, 0.3);
+    height: 60px;
+    margin-top: -28px;
+}
+.font{
+    background-color: black;
+    font-size: 2.5em;
 }
